@@ -98,7 +98,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="288" height="74"/>
+                                    <rect key="frame" x="16" y="154" width="200" height="36"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSL-RB-O7D">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="125" width="205" height="21"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-OJ-QIF">
@@ -108,7 +117,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="11" y="179" width="205" height="30"/>
+                                    <rect key="frame" x="11" y="198" width="205" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="SendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dtX-1C-tmJ"/>
@@ -123,6 +132,7 @@
                                 <exclude reference="YtV-1e-Viw"/>
                                 <exclude reference="0iM-OI-Lmd"/>
                                 <exclude reference="8v1-e9-NB1"/>
+                                <exclude reference="bSL-RB-O7D"/>
                                 <exclude reference="Sf0-OJ-QIF"/>
                             </mask>
                         </variation>
@@ -133,6 +143,7 @@
                                 <include reference="YtV-1e-Viw"/>
                                 <include reference="0iM-OI-Lmd"/>
                                 <include reference="8v1-e9-NB1"/>
+                                <include reference="bSL-RB-O7D"/>
                                 <include reference="Sf0-OJ-QIF"/>
                             </mask>
                         </variation>
@@ -144,6 +155,7 @@
                         <outlet property="enterNameTextField" destination="qEr-Fz-Rok" id="1sW-Jc-ceg"/>
                         <outlet property="mailButton" destination="Sf0-OJ-QIF" id="3HP-FF-A1e"/>
                         <outlet property="messageLabel" destination="8v1-e9-NB1" id="zjg-ig-cPN"/>
+                        <outlet property="nameLabel" destination="bSL-RB-O7D" id="1yt-ty-slt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
